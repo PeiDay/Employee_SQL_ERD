@@ -1,6 +1,6 @@
 # Employee Database: A Mystery in Two Parts
 
-![sql_image.png](https://github.com/PeiDay/SQL-Challenge/blob/main/sql_image.png)
+![sql_image.png](https://github.com/PeiDay/SQL-Challenge/blob/main/images/sql_image.png)
 
 ## Background
 
@@ -15,7 +15,7 @@ We will design the tables to hold data in the CSVs, import the CSVs into a SQL d
 
 Inspect the CSVs and sketch out an ERD of the tables as below, the ERD is saved in the **images** folder.
 
-![employee_db_ERD.png]()
+![employee_db_ERD.png](https://github.com/PeiDay/SQL-Challenge/blob/main/images/employee_db_ERD.png)
 
 
 #### Data Engineering
@@ -52,7 +52,10 @@ Import the psycopg2 and use config.py to execute quesry in JupterNotebook:
 
 * Make a query to retrieve the salary information, and visualize the most common salary ranges for employees with a histogram.
 
+![Salary_Distribution.png](https://github.com/PeiDay/SQL-Challenge/blob/main/images/Salary_Distribution.png)
+
 * Group the average salary by title and visualize it with a barchart. 
+![Salary_title.png](https://github.com/PeiDay/SQL-Challenge/blob/main/images/Salary_title.png)
 
 ## Epilogue
 
